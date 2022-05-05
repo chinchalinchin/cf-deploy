@@ -1,5 +1,6 @@
 import logging
 
+
 def get_logger(name: str) -> logging.Logger:
     """
     Returns an instance of the :class:`logging.Logger` class configured to print events on the `logging.INFO` level to `stdout`. Add special methods for logging application environment and logging dictionaries, via the `log_env` and `log_dict` methods.

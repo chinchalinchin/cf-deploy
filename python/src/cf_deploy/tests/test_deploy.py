@@ -1,6 +1,7 @@
 import os
 import pytest
 
+
 @pytest.fixture(scope='function')
 def aws_credentials():
     """Mocked AWS Credentials for moto.
